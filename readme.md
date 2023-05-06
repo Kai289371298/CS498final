@@ -19,9 +19,9 @@ wandb
 
 For the comments below, (A, B) \in {(walker, walk), (reacher, easy), (cartpole, swingup)}
 
-generation of dataset: python SAC_expert.py --train_agent 2 --domain_name A --task_name B
+**generation of dataset**: python SAC_expert.py --train_agent 2 --domain_name A --task_name B
 
-running BC: 
+**running BC**: 
 
 python BC.py --domain_name A --task_name B --encode_method simclr / vicreg / vinn --actor_method bc / nn_euccore_soft / nn_mancore_hard --arch resnet18
 python BC.py --domain_name A --task_name B --encode_method da --aug crop / translate --actor_method bc --arch resnet18
