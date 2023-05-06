@@ -3,16 +3,27 @@ The wandb key has been commented out in BC.py for privacy; fill in "XXXXXXX" wit
 ## Dependency 
 
 torch==1.10.0
+
 stable-baselines3==1.6.2
+
 scipy 1.8.0
+
 scikit-learn 1.2.2
+
 matplotlib
+
 numpy
+
 mujoco_py==2.1.2.14 (and mujoco210)
+
 imageio==2.16.1
+
 gym==0.21.0
+
 dm-control==1.0.7
+
 dmc2gym (https://github.com/denisyarats/dmc2gym)
+
 wandb
 
 ## How to Run
