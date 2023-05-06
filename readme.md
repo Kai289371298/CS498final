@@ -1,6 +1,6 @@
-the wandb key has been commented out in BC.py for privacy; fill in "XXXXXXX" with your key to make it runnable.
+The wandb key has been commented out in BC.py for privacy; fill in "XXXXXXX" with your key to make it runnable.
 
-dependency: 
+## Dependency 
 
 torch==1.10.0
 stable-baselines3==1.6.2
@@ -15,6 +15,7 @@ dm-control==1.0.7
 dmc2gym (https://github.com/denisyarats/dmc2gym)
 wandb
 
+## How to run
 
 For the comments below, (A, B) \in {(walker, walk), (reacher, easy), (cartpole, swingup)}
 
